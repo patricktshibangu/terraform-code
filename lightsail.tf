@@ -1,5 +1,5 @@
 resource "aws_lightsail_instance" "gitlab_test" {
-  name              = "custom_gitlab"
+  name              = "sns-qa"
   availability_zone = "us-east-1"
   blueprint_id      = "amazon_linux_2"
   bundle_id         = "nano_1_0"
